@@ -75,7 +75,7 @@ The goal of this project is to implement a basic **URL Shortener**. You will be 
 
 - **Expected Response**:
   - **Success** (HTTP 301 Moved Permanently):
-    - **Redirects** to the original URL.
+    - **Redirects** to the original URL. (res.redirect)
   - **Error** (HTTP 404 Not Found):
     ```json
     {
